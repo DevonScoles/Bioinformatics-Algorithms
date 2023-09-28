@@ -25,4 +25,4 @@ def frequent_words(text, k):
 text = "ACGTTGCATGTCGCATGATGCATGAGAGCT"
 k = 4
 result = frequent_words(text, k)
-print(" ".join(map(str,result))) 
+print(" ".join(map(str,result)))
