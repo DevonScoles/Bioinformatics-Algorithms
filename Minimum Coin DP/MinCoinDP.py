@@ -9,7 +9,7 @@
     the list below representing the list of coins available to sum to that amount
 
 """
-with open('rosalind_ba5a.txt','r') as file:
+with open('MinCoin_dataset.txt','r') as file:
     lines = file.readlines()
 money = int(lines[0])
 # change = lines[1].split(',')
