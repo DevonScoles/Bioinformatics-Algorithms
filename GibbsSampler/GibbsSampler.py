@@ -62,7 +62,7 @@ def GibbsSampler(Dna, k, t, N):
     return BestMotifs
 
 
-with open('GibbsSampler_dataset.txt','r') as file:
+with open('GibbsSampler/GibbsSampler_dataset.txt','r') as file:
     lines = file.readlines()
 ktN = lines[0].split()
 k = int(ktN[0])
@@ -77,6 +77,6 @@ OutputString = ""
 for motif in BestMotifs:
     OutputString += motif+'\n'
 
-with open('output.txt', 'w') as file:
+with open('GibbsSampler/output.txt', 'w') as file:
 # Write the string to the file
     file.write(OutputString)
