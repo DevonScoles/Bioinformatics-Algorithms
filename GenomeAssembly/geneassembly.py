@@ -17,7 +17,7 @@ def evacuate(lst):
 
 if __name__ == '__main__':
 
-	with open('GenomeAssembly/rosalind_grep.txt') as input_data:
+	with open('GenomeAssembly/test_input.txt') as input_data:
 		k_mers = [line.strip() for line in input_data.readlines()]
 
 	k = len(k_mers[0])
