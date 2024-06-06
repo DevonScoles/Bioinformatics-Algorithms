@@ -19,7 +19,7 @@ class NeighborJoining:
         return n, distanceMat
     
     def read_file(self):
-        f = open('NeighborJoining/rosalind_ba7e.txt', 'r')
+        f = open('NeighborJoining/test_input.txt', 'r')
         data = []
         for line in f:
             data.append(line.strip())
