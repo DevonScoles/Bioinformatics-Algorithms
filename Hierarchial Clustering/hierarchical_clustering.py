@@ -25,7 +25,7 @@ def hierarchical_clustering(dist_mat, method='Davg'):
     return lst
 
 if __name__ == "__main__":
-    file = open("Hierarchial Clustering/rosalind_ba8e.txt",'r')
+    file = open("Hierarchial Clustering/test_input.txt",'r')
     data = file.read().splitlines()
     n = int(data[0])
     dist_mat = []
