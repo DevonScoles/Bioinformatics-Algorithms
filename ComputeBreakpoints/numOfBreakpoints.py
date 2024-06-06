@@ -23,5 +23,5 @@ def br_points(permutation):
     print(breakpoints)
 
 if __name__ == "__main__":
-    permutation = read_in("ComputeBreakpoints/rosalind_ba6b.txt")
+    permutation = read_in("ComputeBreakpoints/test_input.txt")
     br_points(permutation)
