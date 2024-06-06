@@ -44,6 +44,6 @@ def write_to_file(file_name, permutation):
             file.writelines(permutation[i]+"\n")
 
 if __name__ == "__main__":
-    input = read_in("PermutationGreedySorting/rosalind_ba6a.txt")
+    input = read_in("PermutationGreedySorting/test_input.txt")
     result = greedy_sort_rev(input)
     write_to_file("PermutationGreedySorting/output.txt", result)
