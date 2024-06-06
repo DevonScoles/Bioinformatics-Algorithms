@@ -1,6 +1,6 @@
 class LeaderboardCyclopeptideSequencing:
     def __init__(self):
-        self.read_in('Leaderboard Cyclopeptide Sequencing/rosalind_ba4g.txt')
+        self.read_in('Leaderboard Cyclopeptide Sequencing/test_input.txt')
         print(self.leaderboard_creation(self.spectrumDict, self.N))
 
     def read_in(self, fileName):
